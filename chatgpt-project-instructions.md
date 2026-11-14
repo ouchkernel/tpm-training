@@ -19,8 +19,6 @@ No more re-explaining yourself.
 
 ---
 
----
-
 ## Paste this
 
 ```
