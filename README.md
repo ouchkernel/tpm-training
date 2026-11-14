@@ -34,7 +34,7 @@ These tools change often. Re-check the setup steps and update "Last updated" whe
 | File | What it's for | Who uses it |
 |---|---|---|
 | [demo-script.md](demo-script.md) | Part 1: 45-minute live demo, segment by segment, with exact prompts and an answer key | Presenter |
-| [quick-reference.md](quick-reference.md)quick-reference.md | Quick reference: the 4-part prompt, getting data in and out, do's and don'ts | Everyone (pin it) |
+| [quick-reference.md](quick-reference.md) | Quick reference: the 4-part prompt, getting data in and out, do's and don'ts | Everyone (pin it) |
 | [prompt-library.md](prompt-library.md) | 32 copy-and-paste prompts for PM work | Everyone |
 | [chatgpt-project-instructions.md](chatgpt-project-instructions.md) | "AGENTS.md for ChatGPT": paste into a ChatGPT Project | Everyone |
 | [demo-chatgpt-desktop.md](demo-chatgpt-desktop.md) | Part 2, option A: 20-minute hands-on demo in the ChatGPT desktop app. Opens the workspace folder and runs all five skills on the sample data | Presenter / most people |
