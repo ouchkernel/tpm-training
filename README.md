@@ -8,4 +8,4 @@ These tools change often. Re-check the setup steps and update "Last updated" whe
 ## Start here
 
 **If you're a PM or TPM new to this**, do these in order:
-1. Read `quick-reference.md` (5 minutes).
+1. Read [Quick Reference](quick-reference.md) (5 minutes).
