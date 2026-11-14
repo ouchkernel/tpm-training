@@ -7,7 +7,7 @@ No more re-explaining yourself.
 ## Setup (3 minutes)
 
 1. In ChatGPT, click **New project** in the left sidebar. Name it after your program (e.g. "Oracle Health EHR Onboarding").
-2. Open the Project's **settings / instructions** and paste the text below. Edit the ✏️ lines first.
+2. Open the Project's **settings / instructions** and paste the text below. Edit the two ✏️ lines in ABOUT ME first: replace each capitalized `[BRACKET]` and delete the ✏️ marks. Leave everything else as written. Lower-case brackets like `[who]` in the Jira story format are for ChatGPT to fill in when it writes a story, not for you.
 3. Optional: add **files** to the Project that you use all the time, like your status report template,
    the program charter, or a glossary of acronyms. ChatGPT will refer to them in every chat.
 4. Start a new chat inside the Project for each task.
@@ -16,6 +16,15 @@ No more re-explaining yourself.
 > **Settings → Personalization → Custom instructions** so it applies to *all* your chats.
 > The full text is too long for that box. Use only the ABOUT ME, HOW TO ANSWER, and RULES sections there,
 > and keep the rest in your Project.
+
+**Example of the two ✏️ lines filled in:**
+
+```
+I'm a technical program manager (TPM) on Oracle Health's federal contracts team. My programs onboard new state and federal clients onto our cloud EHR. I'm not an engineer. I use Jira, Confluence, SharePoint, and Teams.
+My program: Oracle Health EHR onboarding for a state health department. Key stakeholders: client IT director, my director, infrastructure and security leads. Jira project key: EHR.
+```
+
+If you have an engineering background, delete "I'm not an engineer." so the answers aren't pitched too simply.
 
 ---
 
