@@ -13,4 +13,4 @@ These tools change often. Re-check the setup steps and update "Last updated" whe
 3. Try three prompts from [Prompt library](prompt-library.md) on your own work: [need to add prompts]
 4. Only if you have the ChatGPT desktop app (or the Codex command-line tool) and want more: open [codex-pm-workspace/README.md](codex-pm-workspace/README.md)
 
-**If you're running the training**, read this page to the end, then `[demo-script.md](demo-script.md)`. For the hands-on follow-up, use `[demo-chatgpt-desktop.md](demo-chatgpt-desktop.md)` (desktop app) or `[demo-codex-cli.md](demo-codex-cli.md)` (terminal). They cover the same steps, so pick the one your audience will actually use.
+**If you're running the training**, read this page to the end, then [demo-script.md](demo-script.md). For the hands-on follow-up, use [demo-chatgpt-desktop.md](demo-chatgpt-desktop.md) (desktop app) or [demo-codex-cli.md](demo-codex-cli.md) (terminal). They cover the same steps, so pick the one your audience will actually use.
