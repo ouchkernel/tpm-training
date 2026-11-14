@@ -1,1 +1,61 @@
+SAMPLE DATA, FICTIONAL. The client, people, and dates are made up for training purposes.
 
+Meeting: Oracle Health EHR Onboarding, Weekly Sync
+Date: Tuesday, November 10, 2026
+Attendees: Dana Whitfield (TPM), Marcus Lee (Infrastructure Lead), Priya Raman (Identity Engineer), Tom Okafor (Client IT Director), Elena Brooks (Security & Compliance), Sam Patel (Data Migration Lead)
+
+Dana: Okay, let's get started. Quick round the table, then the go-live date. Marcus, environments?
+
+Marcus: Non-prod is built and passed our checks last Thursday. Production build is scheduled to start November 30. One thing: we still don't have the final network ranges from the client, and we can't finish the firewall rules without them.
+
+Tom: That's on my side. Our network team is short-staffed this month. I'll push them, but realistically it's the week of the 23rd.
+
+Dana: If we get them the week of the 23rd, does the November 30 production start hold?
+
+Marcus: It holds if we get them by the 24th. Any later and production slides a week.
+
+Dana: Okay. Tom, can you own getting those ranges to Marcus by November 24?
+
+Tom: Yes, I'll own that.
+
+Dana: Priya, single sign-on?
+
+Priya: We tested SSO with the client's identity provider in non-prod. It works for staff accounts. It does NOT work yet for the contractor accounts. Those live in a separate directory on their side. I need a technical contact on the client side who manages that directory.
+
+Tom: That's Rachel in our IAM team. I'll send an intro today.
+
+Priya: Great. Once I have her, it's about a week of work.
+
+Dana: Elena, where are we on the security package?
+
+Elena: The state's security review needs our updated system security plan. I'm about 70% done. The bigger worry is that the state told us their review board only meets once a month, and the next meeting is December 15. If we miss that one, the next is mid-January, which would push go-live.
+
+Dana: So December 15 is a hard date for us. What do you need to make it?
+
+Elena: Submission is due one week before, so December 8. I need the final architecture diagram from Marcus by December 1.
+
+Marcus: I can do December 1.
+
+Dana: Sam, data migration?
+
+Sam: The first test load went fine, but about 4% of records failed validation. Mostly date formats from their legacy system. I'm assuming the client can give us a cleaned extract. If they can't, we need to build a conversion script, and that's about two extra weeks.
+
+Tom: I'd have to check with our data team. I don't know if they have the bandwidth.
+
+Dana: Let's treat that as an open question. Tom, can you find out by Friday?
+
+Tom: I'll try.
+
+Dana: Okay, so decisions. We're keeping the target go-live of January 26. We'll do the go-live readiness review on January 12. Everyone good?
+
+All: Agreed.
+
+Dana: And we agreed SSO for contractors is in scope for go-live, not a later phase.
+
+Tom: Yes, our contractors are about a third of clinic staff. It has to be there.
+
+Dana: Last thing. Marcus is out December 18 through January 4. Who covers infrastructure?
+
+Marcus: Probably Jordan, but I haven't confirmed with him.
+
+Dana: Please confirm and let me know. Thanks all. Same time next week.
