@@ -40,6 +40,7 @@ These tools change often. Re-check the setup steps and update "Last updated" whe
 | [demo-chatgpt-desktop.md](demo-chatgpt-desktop.md) | Part 2, option A: 20-minute hands-on demo in the ChatGPT desktop app. Opens the workspace folder and runs all five skills on the sample data | Presenter / most people |
 | [demo-codex-cli.md](demo-codex-cli.md) | Part 2, option B: the same demo in the Codex command-line tool (terminal) | Presenter / power users |
 | [codex-pm-workspace/](codex-pm-workspace/) | Ready-to-use Codex folder: plain-English `AGENTS.md`, 5 skills, sample data | Curious / power users |
+| [terminology.md](terminology.md) | 	Plain-language glossary of the AI, Codex, file-format, and Jira terms used in the kit | Everyone |
 
 ### The Codex skills
 
@@ -87,7 +88,7 @@ A real export from our Jira has more columns and may split those up (separate Ep
 4. What's the most useful thing you've done with it? (free text)
 5. What's still confusing, or what's stopping you from using it more? (free text)
 
-## Before you share this
+## Before sharing this
 
 - [ ] Confirm what data is allowed in the company ChatGPT workspace and update the safety lines to match.
 - [ ] Fill in the connector steps in [quick-reference.md](quick-reference.md) (two ✏️ spots): how to connect Jira and Confluence, and how to use them in a chat. Confirm whether the connectors can only read, or can also create and edit.
